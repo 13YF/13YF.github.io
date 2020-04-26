@@ -1,0 +1,73 @@
+@@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+html, body{
+  font-family: 'Poppins',sans-serif;
+  color:#222;
+}
+body{background-color:#101010;  }
+  h1 {font-family: Georgia;}
+  h1{color:rgb(255,255,255)}
+  h2{color:rgb(240,240,240)}
+  h3{color:rgb(225,225,225)}
+  h4{color:rgb(216,216,216)}
+  h5{color:rgb(96,96,96)}
+p{color:rgb(160,160,160);  }
+figure{
+  position: relative;
+  width:100%;
+  height:70%;
+  margin:0%;
+}
+#fixed{
+  background-image: url('img 6.png');
+  height: 600px;
+  background-repeat: no-repeat;
+  background:-attachment:fixed;
+  background-position: center;
+  background-size: cover;
+}
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid#6648b1;
+}
+.btn-primary:hover{
+  background-color: #563d7c;
+  border: 1px solid  #563d7c;
+}
+.fun{
+  width:100%;
+  margin-bottom: 2rem;
+}
+.gif{
+  max-width: 100%
+}
+.social a{
+  font-size: 4.5rem;
+  padding: 3rem;
+}
+.fa-facebook{
+  color:#5b5998;
+}
+.fa-twitter{
+  color:#00aced;
+}
+.fa-google-plus-g{
+  color:#dd4b39;
+}
+.fa-instagram{
+  color:#517fc4;
+}
+.fa-youtube{
+  color:#bb0000;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-weibo:hover,  .fa-youtube:hover{
+  color:#d5d5d5;
+}
+footer{
+  background-color:#3f3f3f;
+  color:#d5d5d5;
+  padding-top:2rem;
+}
+.light{
+  border-top:1px solid #d5d5d5;
+  width: 75%;
+}
